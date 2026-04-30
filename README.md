@@ -46,10 +46,10 @@ Click the download link for your machine:
 
 | Your machine | Download |
 |---|---|
-| Mac with Apple Silicon (M1/M2/M3/M4 — most Macs since 2020) | [**Download for Mac (Apple Silicon)**](https://github.com/CrossingsCommunityChurch/Rock-Unmerge-Tool/releases/latest/download/Rock%20Unmerge%20Tool-mac-arm64.dmg) |
-| Mac with Intel chip | [**Download for Mac (Intel)**](https://github.com/CrossingsCommunityChurch/Rock-Unmerge-Tool/releases/latest/download/Rock%20Unmerge%20Tool-mac-x64.dmg) |
-| Windows (most users) | [**Download for Windows**](https://github.com/CrossingsCommunityChurch/Rock-Unmerge-Tool/releases/latest/download/Rock%20Unmerge%20Tool-win-x64.exe) |
-| Windows on ARM | [**Download for Windows (ARM)**](https://github.com/CrossingsCommunityChurch/Rock-Unmerge-Tool/releases/latest/download/Rock%20Unmerge%20Tool-win-arm64.exe) |
+| Mac with Apple Silicon (M1/M2/M3/M4 — most Macs since 2020) | [**Download for Mac (Apple Silicon)**](https://github.com/CrossingsCommunityChurch/Rock-Unmerge-Tool/releases/latest/download/Rock.Unmerge.Tool-mac-arm64.dmg) |
+| Mac with Intel chip | [**Download for Mac (Intel)**](https://github.com/CrossingsCommunityChurch/Rock-Unmerge-Tool/releases/latest/download/Rock.Unmerge.Tool-mac-x64.dmg) |
+| Windows (most users) | [**Download for Windows**](https://github.com/CrossingsCommunityChurch/Rock-Unmerge-Tool/releases/latest/download/Rock.Unmerge.Tool-win-x64.exe) |
+| Windows on ARM | [**Download for Windows (ARM)**](https://github.com/CrossingsCommunityChurch/Rock-Unmerge-Tool/releases/latest/download/Rock.Unmerge.Tool-win-arm64.exe) |
 
 These links always point at the **most recent release**. To browse all
 versions or read the changelog, visit the
