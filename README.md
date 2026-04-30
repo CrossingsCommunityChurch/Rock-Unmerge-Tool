@@ -158,7 +158,10 @@ restore, defensive verification) are layered on top with the original
 behavior left intact.
 
 Built at Crossings Church to recover from accidental Rock RMS person merges.
-Released under the [MIT license](LICENSE) for the broader Rock community.
+Released under the [GNU GPL v3](LICENSE) for the broader Rock community.
+Anyone is free to use, modify, and redistribute this tool — derivative works
+must remain under the same license, which keeps the tool free for everyone
+and prevents repackaging as a closed-source paid product.
 
 ## Disclaimer
 
