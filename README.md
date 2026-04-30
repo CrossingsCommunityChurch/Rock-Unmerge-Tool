@@ -42,14 +42,30 @@ preserves.
 
 ## Install (end users)
 
-Download the installer for your OS, run it, and launch the app.
+**[Go to the latest release →](https://github.com/CrossingsCommunityChurch/Rock-Unmerge-Tool/releases/latest)**
 
-### macOS
+On that page, scroll down to the "Assets" section and click the file for
+your operating system:
 
-1. Download `Rock-Unmerge-Tool-x.y.z-mac-arm64.dmg` (Apple Silicon) or
-   `-mac-x64.dmg` (Intel).
-2. Open the DMG and drag **Rock Unmerge Tool** into your Applications folder.
-3. **First launch**: macOS will say *"Rock Unmerge Tool cannot be opened
+| Your machine | Click this file |
+|---|---|
+| Mac with Apple Silicon (M1/M2/M3/M4 — most Macs since 2020) | `Rock Unmerge Tool-x.y.z-mac-arm64.dmg` |
+| Mac with Intel chip | `Rock Unmerge Tool-x.y.z-mac-x64.dmg` |
+| Windows (most users) | `Rock Unmerge Tool-x.y.z-win-x64.exe` |
+| Windows on ARM | `Rock Unmerge Tool-x.y.z-win-arm64.exe` |
+
+> Not sure which Mac you have? Apple menu → About This Mac → look for
+> "Apple M…" (Apple Silicon) or "Intel" under Chip / Processor.
+
+> Older versions are at the [full releases page](https://github.com/CrossingsCommunityChurch/Rock-Unmerge-Tool/releases).
+
+### Running the installer
+
+#### macOS
+
+1. Open the downloaded `.dmg` and drag **Rock Unmerge Tool** into your
+   Applications folder.
+2. **First launch**: macOS will say *"Rock Unmerge Tool cannot be opened
    because Apple cannot check it for malicious software."* This is because
    the build isn't signed by a Developer ID (yet). To open it:
    - Right-click the app in Applications → **Open** → click **Open** in the
@@ -59,16 +75,14 @@ Download the installer for your OS, run it, and launch the app.
    - Alternative: System Settings → Privacy & Security → scroll to
      "Rock Unmerge Tool was blocked..." → click **Open Anyway**.
 
-### Windows
+#### Windows
 
-1. Download `Rock-Unmerge-Tool-x.y.z-win-x64.exe` (or `-arm64.exe` for ARM
-   devices).
-2. Run the installer. **Microsoft Defender SmartScreen** will say
+1. Run the downloaded `.exe`. **Microsoft Defender SmartScreen** will say
    *"Windows protected your PC"* because the binary isn't signed by a
    verified publisher (yet). To proceed:
    - Click **More info** in the dialog.
    - Click **Run anyway**.
-3. Choose an install location (the installer lets you pick) and finish.
+2. Choose an install location (the installer lets you pick) and finish.
 
 ### Why the warnings?
 
