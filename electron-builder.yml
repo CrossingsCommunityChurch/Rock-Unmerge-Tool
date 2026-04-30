@@ -7,8 +7,10 @@ directories:
   buildResources: build
   output: dist
 
-# Pleasant download filenames.
-artifactName: "${productName}-${version}-${os}-${arch}.${ext}"
+# Stable download filenames -- no version stamp so the README's direct
+# download links keep working across releases. The version is still
+# discoverable in the GitHub release page and inside the app itself.
+artifactName: "${productName}-${os}-${arch}.${ext}"
 
 # Files actually shipped inside the asar bundle. Native deps are unpacked so
 # they can dlopen at runtime.

@@ -1,6 +1,6 @@
 {
   "name": "rock-unmerge-tool",
-  "version": "0.6.1",
+  "version": "0.6.2",
   "description": "Recover from accidental person merges in Rock RMS",
   "private": true,
   "license": "GPL-3.0-or-later",
