@@ -1,0 +1,67 @@
+appId: church.crossings.rockunmerge
+productName: Rock Unmerge Tool
+copyright: Copyright (c) 2026 Crossings Church
+
+# Tell electron-builder where to find icons + bundle resources.
+directories:
+  buildResources: build
+  output: dist
+
+# Pleasant download filenames.
+artifactName: "${productName}-${version}-${os}-${arch}.${ext}"
+
+# Files actually shipped inside the asar bundle. Native deps are unpacked so
+# they can dlopen at runtime.
+files:
+  - "out/**/*"
+  - "package.json"
+asarUnpack:
+  - "**/*.{node,dll}"
+
+# Don't try to publish to GitHub releases on local builds. Override in CI by
+# setting GH_TOKEN and removing this line.
+publish: null
+
+# ---- Windows ------------------------------------------------------------
+win:
+  icon: build/icon.png
+  target:
+    - target: nsis
+      arch:
+        - x64
+        - arm64
+nsis:
+  oneClick: false
+  perMachine: false
+  allowToChangeInstallationDirectory: true
+  shortcutName: Rock Unmerge Tool
+  uninstallDisplayName: "${productName} ${version}"
+
+# ---- macOS --------------------------------------------------------------
+mac:
+  icon: build/icon.png
+  category: public.app-category.business
+  target:
+    - target: dmg
+      arch:
+        - x64
+        - arm64
+  # Hardened runtime + entitlements aren't strictly needed without
+  # notarization, but leave hardenedRuntime true so we're a step closer
+  # to a notarizable build later.
+  hardenedRuntime: true
+dmg:
+  contents:
+    - x: 130
+      y: 220
+    - x: 410
+      y: 220
+      type: link
+      path: /Applications
+
+# ---- Linux --------------------------------------------------------------
+linux:
+  icon: build/icon.png
+  target:
+    - AppImage
+  category: Office
