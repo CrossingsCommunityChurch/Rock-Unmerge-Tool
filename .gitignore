@@ -16,3 +16,5 @@ npm-debug.log*
 # App-generated test data and audit logs (developer machines)
 audit-logs/
 test-data/
+
+.claude

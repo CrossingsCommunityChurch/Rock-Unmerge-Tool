@@ -48,10 +48,11 @@ mac:
       arch:
         - x64
         - arm64
-  # Hardened runtime + entitlements aren't strictly needed without
-  # notarization, but leave hardenedRuntime true so we're a step closer
-  # to a notarizable build later.
   hardenedRuntime: true
+  # Notarization is auto-detected by electron-builder: when a Developer ID
+  # Application cert is in the keychain AND APPLE_ID / APPLE_APP_SPECIFIC_PASSWORD /
+  # APPLE_TEAM_ID env vars are set, notarytool runs automatically. With nothing
+  # configured the build still completes (just unsigned). See docs/CODESIGNING.md.
 dmg:
   contents:
     - x: 130
