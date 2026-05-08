@@ -105,7 +105,7 @@ The first time you point this tool at real Rock data, do it against a
 4. Walk through Connect → Identify → Preview. Compare the "Tables affected"
    counts to manual SQL queries you write yourself for 2–3 spot tables.
 5. If counts agree, run **Commit** against the test pair. Open Rock pointed
-   at the test database and verify the restored person's record looks right.
+   at the test database in a staging environment and verify the restored person's record looks right, NOT YOUR PRODUCTION VM.
 6. Only then point the tool at actual production with a fresh backup.
 
 The audit log makes the operation reproducible and reviewable after the fact.
